@@ -49,7 +49,7 @@ function draw(dataA, dataB, plane, mult, speed, color, width) {
     ctx.fillStyle = "#FF7519";
     ctx.font = "16px Arial";
     ctx.textAlign = "center";
-    //ctx.fillText(plane+" plane", canvas.width/2, 15);
+    ctx.fillText(plane+" plane", canvas.width/2, 15);
     ctx.lineCap = "round";
     ctx.lineJoin = "round";
     ctx.lineWidth = width;
