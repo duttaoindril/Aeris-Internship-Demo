@@ -5,6 +5,12 @@ var accelx = [];
 var accely = [];
 var accelz = [];
 
+var size = $(window).width();
+if(size > $(window).height())
+    size = $(window).height();
+document.querySelector("#visualxy").width = size;
+document.querySelector("#visualxy").height = size;
+
 refreshdata();
 
 function refreshdata() {
