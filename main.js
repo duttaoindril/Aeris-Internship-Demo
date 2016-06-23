@@ -10,7 +10,6 @@ if(size > $(window).height())
     size = $(window).height();
 document.querySelector("#visualxy").width = size-35;
 document.querySelector("#visualxy").height = size-35;
-
 refreshdata();
 
 function refreshdata() {
