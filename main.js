@@ -36,7 +36,7 @@ function refreshdataB(nextToken) {
     $.getJSON(url, function(data) {
         var count = data.contentInstances.length;
         for (var i = 0; i < count; i++) {
-            if (data.contentInstances[i].content.contentTypeBinary != "") {
+            if (data.contentInstances[i].content.contentTypeBinary != "null" && data.contentInstances[i].content.contentTypeBinary != "") {
                 accelx.unshift(jQuery.parseJSON(data.contentInstances[i].content.contentTypeBinary).x);
                 accely.unshift(jQuery.parseJSON(data.contentInstances[i].content.contentTypeBinary).y);
                 accelz.unshift(jQuery.parseJSON(data.contentInstances[i].content.contentTypeBinary).z);

@@ -1,19 +1,19 @@
 {
-  "name": "tessel-code",
+  "name": "finalPush",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "draw.js",
+  "dependencies": {
+    "accel-mma84": "^0.2.4",
+    "climate-si7020": "^0.1.1",
+    "https": "^1.0.0",
+    "wifi-cc3000": "^0.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "accel-mma84": "^0.2.4",
-    "climate-si7020": "^0.1.1",
-    "gps-a2235h": "^0.3.0",
-    "https": "^1.0.0",
-    "wifi-cc3000": "0.0.1"
-  }
+  "license": "ISC"
 }
